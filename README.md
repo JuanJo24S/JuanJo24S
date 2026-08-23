@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:1F4E5F&height=200&section=header&text=Juan%20Jose%20Valbuena%20Camacho&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Fullstack%20Developer%20%26%20Data%20Engineer&descAlignY=62&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:1F4E5F&height=200&section=header&text=Juan%20Jose%20Valbuena%20Camacho&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Fullstack%20Developer%20%2F%20Data%20Engineer&descAlignY=62&descSize=18" width="100%"/>
 
 <a href="https://readme-typing-svg.demolab.com/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=0F766E&center=true&vCenter=true&width=650&lines=Desarrollador+Fullstack+%26+Data+Engineer;Python+-+Apache+Airflow+-+AWS;De+pipelines+ETL+a+interfaces+con+Angular;Java+fue+mi+primer+lenguaje+y+lo+sigue+siendo" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=0F766E&center=true&vCenter=true&width=650&lines=Desarrollador+Fullstack+y+Data+Engineer;Python+-+Apache+Airflow+-+AWS;De+pipelines+ETL+a+interfaces+con+Angular;Java+fue+mi+primer+lenguaje+y+lo+sigue+siendo" alt="Typing SVG" />
 </a>
 
 <p>
