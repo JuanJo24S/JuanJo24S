@@ -56,16 +56,30 @@ Lo rediseñé usando **endpoints REST directos** en lugar de navegación por pá
 ## 📈 Línea de tiempo
 
 ```mermaid
+%%{init: { 'themeVariables': {
+  'doneTaskBkgColor': '#065f46',
+  'doneTaskBorderColor': '#047857',
+  'activeTaskBkgColor': '#22c55e',
+  'activeTaskBorderColor': '#15803d',
+  'taskTextColor': '#ffffff',
+  'taskTextLightColor': '#ffffff',
+  'taskTextOutsideColor': '#ffffff'
+}}}%%
 gantt
-    title Experiencia y proyectos
+    title Experiencia, formación y proyectos
     dateFormat  YYYY-MM-DD
     axisFormat  %Y
     section Empleo
-    Dronesky - Geo-Data (Solidaridad)      :2025-09-15, 2026-08-31
+    Dronesky - Geo-Data (Solidaridad)      :done, 2025-09-15, 2026-08-31
+    section Formación
+    Curso SQL - Guayerd + Beta Hub         :done, 2023-04-01, 2023-06-30
+    Técnico Profesional (FET)              :done, 2023-02-01, 2025-03-01
+    Tecnología en Desarrollo (FET)         :done, 2025-03-01, 2026-03-01
+    Ingeniería de Software (FET)           :active, 2026-03-01, 2029-03-01
     section Proyectos
-    Dr. Stock (grado + retomado)           :2024-03-01, 2026-08-31
-    Juego educativo (freelance)            :2024-03-01, 2024-11-30
-    Integración API Factus                 :2025-06-01, 2025-06-30
+    Dr. Stock (grado + retomado)           :done, 2024-03-01, 2026-08-31
+    Juego educativo (freelance)            :done, 2024-03-01, 2024-11-30
+    Integración API Factus                 :done, 2025-06-01, 2025-06-30
 ```
 
 ---
@@ -93,15 +107,6 @@ Plataforma interactiva de aprendizaje para niños de 4 a 10 años sobre diseño 
 
 **Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Rivera-Huila — *en curso, 5to semestre*
 Ciclo propedéutico: Tecnología en Desarrollo de Sistemas de Información y Redes (2026) · Técnico Profesional en Soporte de Sistemas Informáticos y Redes (2025)
-
----
-
-## 📊 Actividad en GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JuanJo24S&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuanJo24S&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
