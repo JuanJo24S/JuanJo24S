@@ -16,13 +16,11 @@
 
 ## 👋 Sobre mí
 
-Desarrollador Fullstack y Data Engineer enfocado en llevar datos y aplicaciones desde la idea hasta producción.
+Soy Juan, desarrollador Fullstack y Data Engineer. Me gusta trabajar en proyectos donde los datos y el código se cruzan — llevar algo desde una idea hasta que corre en producción.
 
-En mi paso más reciente por **Dronesky** (proyecto para Solidaridad) diseñé y mantuve un pipeline ETL en Python orquestado con Apache Airflow para el procesamiento de datos geoespaciales, siendo responsable de **más del 80% del código** del proyecto. Ahí mismo rediseñé un proceso de carga masiva que pasó de tomar horas a minutos — lo cuento más abajo 👇.
+He trabajado tanto del lado de datos (pipelines, automatización, nube) como construyendo aplicaciones completas de punta a punta: un sistema de inventarios, facturación electrónica, una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido, aunque me muevo cómodo en varios más.
 
-Antes de eso construí aplicaciones de punta a punta: un sistema de inventarios con Laravel + Angular, integración de facturación electrónica con la API de Factus, y una plataforma educativa interactiva para niños.
-
-Actualmente avanzando hacia el **5to semestre de Ingeniería de Software**. Java ☕ fue mi primer lenguaje y sigue siendo el que más disfruto escribir, aunque hoy me muevo cómodo entre Python, Angular y Spring Boot. Fuera del código, practico Karate desde hace 6 años 🥋.
+Actualmente voy en el **8vo semestre de Ingeniería de Software** en la FET. Fuera del código, practico Karate desde hace 8 años 🥋 — la misma disciplina de repetir hasta que algo funcione bien la aplico aprendiendo tecnología nueva.
 
 ---
 
@@ -30,9 +28,10 @@ Actualmente avanzando hacia el **5to semestre de Ingeniería de Software**. Java
 
 | Área | Tecnologías |
 |---|---|
-| **Frontend** | ![](https://skillicons.dev/icons?i=angular,ts,tailwind,bootstrap) |
-| **Backend** | ![](https://skillicons.dev/icons?i=java,spring,laravel,php) |
-| **Datos & Cloud** | ![](https://skillicons.dev/icons?i=py,aws,postgres,mysql,docker) |
+| **Lenguajes** | ![](https://skillicons.dev/icons?i=java,c,cpp,cs,php,py,js,ts,html,css,bash) |
+| **Frontend** | ![](https://skillicons.dev/icons?i=angular,tailwind,bootstrap) |
+| **Backend** | ![](https://skillicons.dev/icons?i=spring,laravel) |
+| **Datos & Cloud** | ![](https://skillicons.dev/icons?i=aws,postgres,mysql,docker) |
 | **Herramientas** | ![](https://skillicons.dev/icons?i=git,github,linux) |
 
 <p>
@@ -42,6 +41,17 @@ Actualmente avanzando hacia el **5to semestre de Ingeniería de Software**. Java
   <img src="https://img.shields.io/badge/ArcGIS-2C7AC3?style=flat-square&logo=esri&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS%20Glue%20%7C%20Athena%20%7C%20Lambda%20%7C%20ECS%20%7C%20EC2%20%7C%20CloudFormation-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
+
+---
+
+## 💼 Experiencia
+
+**Ingeniería de Datos y Automatización Cloud — Dronesky** (proyecto para Solidaridad)
+*Septiembre 2025 – Agosto 2026*
+
+Diseñé y mantuve un pipeline ETL en Python orquestado con Apache Airflow para el procesamiento de datos geoespaciales, siendo responsable de **más del 80% del código** del proyecto.
+
+El flujo completo arrancaba con la carga de datos desde **Google Drive hacia S3**, seguía por varias etapas de **ETL** — generando informes en cada paso intermedio — y cerraba con la carga de los resultados a **PostGIS** para el análisis geoespacial. Ahí también migré los scripts de **Selenium** que subían esos informes, integrándolos como tareas propias dentro del pipeline. Sobre AWS trabajé de punta a punta: **Glue** para las transformaciones, **Athena** para consultas, **Lambda, ECS y EC2** para cómputo, **IAM y Secrets Manager** para el control de acceso, y **CloudFormation** para la infraestructura como código — todo administrado también vía **AWS CLI**.
 
 ---
 
@@ -73,9 +83,9 @@ gantt
     Dronesky - Geo-Data (Solidaridad)      :done, 2025-09-15, 2026-08-31
     section Formación
     Curso SQL - Guayerd + Beta Hub         :done, 2023-04-01, 2023-06-30
-    Técnico Profesional (FET)              :done, 2023-02-01, 2025-03-01
-    Tecnología en Desarrollo (FET)         :done, 2025-03-01, 2026-03-01
-    Ingeniería de Software (FET)           :active, 2026-03-01, 2029-03-01
+    Técnico Profesional (FET)              :done, 2023-02-01, 2024-11-30
+    Tecnología en Desarrollo (FET)         :done, 2025-02-01, 2025-11-30
+    Ingeniería de Software (FET)           :active, 2026-02-01, 2029-06-01
     section Proyectos
     Dr. Stock (grado + retomado)           :done, 2024-03-01, 2026-08-31
     Juego educativo (freelance)            :done, 2024-03-01, 2024-11-30
@@ -105,7 +115,7 @@ Plataforma interactiva de aprendizaje para niños de 4 a 10 años sobre diseño 
 
 ## 🎓 Educación
 
-**Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Rivera-Huila — *en curso, 5to semestre*
+**Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Rivera-Huila — *en curso, 8vo semestre*
 Ciclo propedéutico: Tecnología en Desarrollo de Sistemas de Información y Redes (2026) · Técnico Profesional en Soporte de Sistemas Informáticos y Redes (2025)
 
 ---
