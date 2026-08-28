@@ -98,22 +98,24 @@ gantt
 
 ## 📌 Proyectos destacados
 
-**🗂️ Dr. Stock — Sistema de Gestión de Inventarios**
+**🗂️ [Dr. Stock — Sistema de Gestión de Inventarios](dr-stock.md)**
 Sistema web de inventarios con autenticación, control de productos y stock en tiempo real.
 `Laravel` `MySQL` `Angular 18` `Bootstrap`
-🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · Proyecto de grado, marzo - noviembre 2024, refactorizado agosto 2026
+🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · 📄 [Capturas y detalle](dr-stock.md)
+Proyecto de grado, marzo - noviembre 2024, refactorizado agosto 2026
 
 **🧾 Integración API Factus**
 Facturación electrónica automatizada dentro de una aplicación Angular.
 `Angular` `API REST`
 📅 Junio 2025
 
-**🎮 HarSimuVerse — Juego Educativo en Angular**
+**🎮 [HarSimuVerse — Juego Educativo en Angular](harsimuverse.md)**
 Plataforma interactiva para niños de 4 a 12 años sobre las partes del computador.
 Seis minijuegos repartidos en dos dificultades (Kids 4-7, Junior 8+): memoria de
 parejas, arrastrar piezas a su lugar y cuestionarios.
 `Angular 19` `Tailwind 4` `Laravel` `PostgreSQL` `Docker`
-🔗 [Demo en vivo](https://har-simu-verse.vercel.app/home) · Freelance — marzo – noviembre 2024, refactorizado agosto 2026
+🔗 [Demo en vivo](https://har-simu-verse.vercel.app/home) · 📄 [Capturas y detalle](harsimuverse.md)
+Freelance — marzo – noviembre 2024, refactorizado agosto 2026
 
 
 ---
