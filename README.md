@@ -87,8 +87,10 @@ gantt
     Tecnología en Desarrollo (FET)         :done, 2025-02-01, 2025-11-30
     Ingeniería de Software (FET)           :active, 2026-02-01, 2029-06-01
     section Proyectos
-    Dr. Stock (grado + retomado)           :done, 2024-03-01, 2026-08-31
-    Juego educativo (freelance)            :done, 2024-03-01, 2024-11-30
+    Dr. Stock (grado)                      :done, 2024-03-01, 2024-11-22
+    Dr. Stock - retomado                   :done, 2026-08-01, 2026-08-31
+    HarSimuVerse - freelance               :done, 2024-03-01, 2024-11-30
+    HarSimuVerse - retomado                :done, 2026-08-01, 2026-08-31
     Integración API Factus                 :done, 2025-06-01, 2025-06-30
 ```
 
@@ -99,17 +101,20 @@ gantt
 **🗂️ Dr. Stock — Sistema de Gestión de Inventarios**
 Sistema web de inventarios con autenticación, control de productos y stock en tiempo real.
 `Laravel` `MySQL` `Angular 18` `Bootstrap`
-🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · Proyecto de grado, retomado — marzo 2024 – agosto 2026
+🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · Proyecto de grado, marzo - noviembre 2024, refactorizado agosto 2026
 
 **🧾 Integración API Factus**
 Facturación electrónica automatizada dentro de una aplicación Angular.
 `Angular` `API REST`
 📅 Junio 2025
 
-**🎮 Juego Educativo en Angular**
-Plataforma interactiva de aprendizaje para niños de 4 a 10 años sobre diseño y estructura de computadores.
-`Angular`
-📅 Marzo – noviembre 2024 (freelance)
+**🎮 HarSimuVerse — Juego Educativo en Angular**
+Plataforma interactiva para niños de 4 a 12 años sobre las partes del computador.
+Seis minijuegos repartidos en dos dificultades (Kids 4-7, Junior 8+): memoria de
+parejas, arrastrar piezas a su lugar y cuestionarios.
+`Angular 19` `Tailwind 4` `Laravel` `PostgreSQL` `Docker`
+🔗 [Demo en vivo](https://har-simu-verse.vercel.app/home) · Freelance — marzo – noviembre 2024, refactorizado agosto 2026
+
 
 ---
 
