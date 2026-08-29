@@ -107,6 +107,7 @@ Proyecto de grado, marzo - noviembre 2024, refactorizado agosto 2026
 **🧾 Integración API Factus**
 Facturación electrónica automatizada dentro de una aplicación Angular.
 `Angular` `API REST`
+🏅 [Certificación de HALLTEC S.A.S](images/factus/certificado-factus.png) — enero 2025
 📅 Junio 2025
 
 **🎮 [HarSimuVerse — Juego Educativo en Angular](harsimuverse.md)**
