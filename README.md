@@ -28,7 +28,7 @@
 
 ## 🛰️ A production data pipeline I built · Un pipeline en producción que construí
 
-**Data Engineer** · geospatial data platform for a confidential client · plataforma de datos geoespaciales para un cliente confidencial
+**Data Engineer** · geospatial data platform for a client · plataforma de datos geoespaciales para un cliente
 
 ```mermaid
 flowchart LR
