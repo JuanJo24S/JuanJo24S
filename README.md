@@ -28,7 +28,7 @@
 
 ## 🛰️ A production data pipeline I built · Un pipeline en producción que construí
 
-**Data Engineer** · geospatial data platform (client under NDA · cliente confidencial) · Neiva, hybrid · Nov 2025 – Aug 2026
+**Data Engineer** · geospatial data platform for a confidential client · plataforma de datos geoespaciales para un cliente confidencial
 
 ```mermaid
 flowchart LR
@@ -158,8 +158,6 @@ Voy en el **8vo semestre de Ingeniería de Software** en la FET, con los título
 gantt
 dateFormat YYYY-MM-DD
 axisFormat %Y
-section Work
-Data Engineer - geospatial platform :done, 2025-11-01, 2026-08-31
 section Education
 SQL course - Guayerd :done, 2023-04-01, 2023-06-30
 Professional Technician (FET) :done, 2023-02-01, 2024-11-30
