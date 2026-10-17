@@ -33,28 +33,19 @@ Voy en el **8vo semestre de Ingeniería de Software** en la FET. Fuera del códi
 
 | Área | Tecnologías |
 |---|---|
-| **Datos & Cloud** | ![](https://skillicons.dev/icons?i=py,aws,postgres,mysql,docker) |
-| **Lenguajes** | ![](https://skillicons.dev/icons?i=java,py,ts,js,c,cpp,cs,php,bash) |
-| **Backend** | ![](https://skillicons.dev/icons?i=spring,laravel) |
-| **Frontend** | ![](https://skillicons.dev/icons?i=angular,tailwind,bootstrap,html,css) |
-| **Herramientas** | ![](https://skillicons.dev/icons?i=git,github,linux) |
-
-<p>
-<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
-<img src="https://img.shields.io/badge/ArcGIS-2C7AC3?style=flat-square&logo=esri&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS%20Glue%20%7C%20S3%20%7C%20Athena%20%7C%20Lambda%20%7C%20ECS%20%7C%20CloudFormation-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-</p>
+| **Lenguajes** | ![](https://skillicons.dev/icons?i=java,py,ts,js,c,cpp,cs,php,bash,html,css) <br> SQL |
+| **Datos** | ![](https://skillicons.dev/icons?i=postgres,mysql) <br> Apache Airflow (DAGs, orquestación, reintentos, trazabilidad) · PostGIS · Amazon Athena · DynamoDB · pandas · geopandas · Flyway · ArcGIS · Selenium · docxtpl/Jinja2 · openpyxl |
+| **Cloud (AWS)** | ![](https://skillicons.dev/icons?i=aws) <br> Glue · S3 · Athena · Lambda · ECS · EC2 · DynamoDB · IAM · Secrets Manager · CloudFormation · SAM · AWS CLI |
+| **Backend** | ![](https://skillicons.dev/icons?i=spring,laravel) <br> Spring Boot 3.x · Laravel · APIs REST · JWT · arquitectura por capas con DTOs · JUnit |
+| **Frontend** | ![](https://skillicons.dev/icons?i=angular,tailwind,bootstrap) <br> Angular 17–19 · Ionic · Tailwind · Bootstrap |
+| **DevOps & herramientas** | ![](https://skillicons.dev/icons?i=docker,githubactions,git,github,bitbucket,linux) <br> Docker · GitHub Actions (CI/CD) · Git · GitHub · Bitbucket · Linux · Claude Code |
+| **Prácticas** | SOLID · Clean Code · RBAC · pruebas automatizadas con mocking · optimización de rendimiento (consultas SQL, llamadas HTTP/REST, tiempos de compilación y ejecución) · documentación técnica |
 
 ---
 
 ## 💼 Experiencia
 
-**Data Engineer — confidential client** · Neiva, híbrido
+**Data Engineer — confidential client** · Neiva, híbrido  
 *Noviembre 2025 – Agosto 2026*
 
 Diseñé y mantuve un pipeline ETL en Python orquestado con Apache Airflow para el procesamiento de datos geoespaciales, siendo responsable de **más del 80% del código** del proyecto en un equipo de cinco desarrolladores.
@@ -71,27 +62,27 @@ Lo rediseñé usando **endpoints REST directos** en lugar de navegar por página
 
 ## 📌 Proyectos destacados
 
-**🤖 [claude-develop-skills — Herramientas para agentes de IA](https://github.com/JuanJo24S/claude-develop-skills)**
-Skills y un hook de seguridad (*git-guard*) para que los agentes de IA trabajen con Pull Requests ordenados: flujo de Git con Conventional Commits, PR con autorrevisión, manejo de secretos y código limpio. El hook bloquea push a `main`, force push, archivos `.env` y secretos antes de que el agente los ejecute.
-`Claude Code` `OpenCode` `Bash` `Git`
+**🤖 [claude-develop-skills — Herramientas para agentes de IA](https://github.com/JuanJo24S/claude-develop-skills)**  
+Skills y un hook de seguridad (*git-guard*) para que los agentes de IA trabajen con Pull Requests ordenados: flujo de Git con Conventional Commits, PR con autorrevisión, manejo de secretos y código limpio. El hook bloquea push a `main`, force push, archivos `.env` y secretos antes de que el agente los ejecute.  
+`Claude Code` `OpenCode` `Bash` `Git`  
 Open source · documentación en español e inglés · 2025 – actualidad
 
-**🗂️ [Dr. Stock — Inventario y Punto de Venta](dr-stock.md)**
-Sistema de inventario y punto de venta para pequeños negocios: control de stock con alertas de reposición, ventas con recibo en PDF y gestión de usuarios por rol.
-`Angular 17` `Tailwind` `Spring Boot 3.3` `Java 17` `PostgreSQL` `Flyway` `JWT` `Docker`
-API REST sin estado, arquitectura en capas con DTOs y 70 pruebas automatizadas.
-🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · 📄 [Capturas y detalle](dr-stock.md)
+**🗂️ [Dr. Stock — Inventario y Punto de Venta](dr-stock.md)**  
+Sistema de inventario y punto de venta para pequeños negocios: control de stock con alertas de reposición, ventas con recibo en PDF y gestión de usuarios por rol.  
+`Angular 17` `Tailwind` `Spring Boot 3.3` `Java 17` `PostgreSQL` `Flyway` `JWT` `Docker`  
+API REST sin estado, arquitectura en capas con DTOs y 70 pruebas automatizadas.  
+🔗 [Demo en vivo](https://dr-stock-gules.vercel.app/auth) · 📄 [Capturas y detalle](dr-stock.md)  
 Proyecto de grado, marzo – noviembre 2024 · reescrito en Spring Boot, agosto 2026
 
-**🎮 [HarSimuVerse — Juego Educativo en Angular](harsimuverse.md)**
-Seis minijuegos para que niños de 4 a 12 años aprendan las partes del computador, pensados para tablet: interacción táctil, áreas de toque de 56 px o más y retroalimentación que no depende solo del color. Eliminé el backend original para quitar el costo de hosting y el arranque lento: hoy es una SPA estática.
-`Angular 19` `Tailwind 4` `TypeScript` `Vercel`
-🔗 [Demo en vivo](https://har-simu-verse.vercel.app/home) · 📄 [Capturas y detalle](harsimuverse.md)
+**🎮 [HarSimuVerse — Juego Educativo en Angular](harsimuverse.md)**  
+Seis minijuegos para que niños de 4 a 12 años aprendan las partes del computador, pensados para tablet: interacción táctil, áreas de toque de 56 px o más y retroalimentación que no depende solo del color. Eliminé el backend original para quitar el costo de hosting y el arranque lento: hoy es una SPA estática.  
+`Angular 19` `Tailwind 4` `TypeScript` `Vercel`  
+🔗 [Demo en vivo](https://har-simu-verse.vercel.app/home) · 📄 [Capturas y detalle](harsimuverse.md)  
 Freelance para docentes universitarios, marzo – noviembre 2024 · refactorizado agosto 2026
 
-**🧾 Integración API Factus**
-Facturación electrónica automatizada dentro de una aplicación Angular.
-`Angular` `API REST`
+**🧾 Integración API Factus**  
+Facturación electrónica automatizada dentro de una aplicación Angular.  
+`Angular` `API REST`  
 🏅 [Certificación de HALLTEC S.A.S](images/factus/certificado-factus.png) — enero 2025
 
 ---
@@ -131,7 +122,7 @@ Integración API Factus :done, 2025-06-01, 2025-06-30
 
 ## 🎓 Educación
 
-**Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Rivera-Huila — *en curso, 8vo semestre*
+**Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Rivera-Huila — *en curso, 8vo semestre*  
 Ciclo propedéutico: Tecnología en Desarrollo de Sistemas de Información y Redes (2026) · Técnico Profesional en Soporte de Sistemas Informáticos y Redes (2025)
 
 ---
