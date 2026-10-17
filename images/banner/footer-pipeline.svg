@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#05201d"/>
+    </linearGradient>
+    <path id="f" d="M0 70 C 300 40, 500 95, 800 60 S 1100 45, 1200 70"/>
+  </defs>
+  <rect width="1200" height="110" rx="18" fill="url(#bg)"/>
+  <use href="#f" fill="none" stroke="#14b8a6" stroke-opacity="0.5" stroke-width="2"/>
+  <circle r="5" fill="#5eead4"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#f"/></animateMotion></circle>
+  <circle r="4" fill="#86efac"><animateMotion dur="6s" begin="3s" repeatCount="indefinite"><mpath href="#f"/></animateMotion></circle>
+  <text x="600" y="42" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#ccfbf1">Thanks for visiting · Gracias por la visita</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Juan José Valbuena Camacho — Data Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05201d"/>
+      <stop offset="0.55" stop-color="#0b2f33"/>
+      <stop offset="1" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#14b8a6"/>
+      <stop offset="0.8" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#14b8a6" stroke-opacity="0.07"/>
+    </pattern>
+    <path id="flow" d="M40 235 C 220 235, 260 180, 420 180 S 640 250, 800 215 S 1040 160, 1160 190"/>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <use href="#flow" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <use href="#flow" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-dasharray="6 18" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="-48" dur="1.2s" repeatCount="indefinite"/>
+  </use>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#99f6e4">
+    <g transform="translate(150,214)"><circle r="9" fill="#0f766e" stroke="#2dd4bf"/><text x="0" y="30" text-anchor="middle">Extract</text></g>
+    <g transform="translate(420,180)"><circle r="9" fill="#0f766e" stroke="#2dd4bf"/><text x="0" y="-18" text-anchor="middle">Transform</text></g>
+    <g transform="translate(800,215)"><circle r="9" fill="#0f766e" stroke="#2dd4bf"/><text x="0" y="30" text-anchor="middle">Load</text></g>
+    <g transform="translate(1060,172)"><circle r="9" fill="#166534" stroke="#22c55e"/><text x="0" y="-18" text-anchor="middle">Insight</text></g>
+  </g>
+  <circle r="6" fill="#5eead4"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion></circle>
+  <circle r="4" fill="#86efac"><animateMotion dur="5s" begin="1.6s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion></circle>
+  <circle r="5" fill="#2dd4bf"><animateMotion dur="5s" begin="3.2s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion></circle>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="60" y="92" font-size="50" font-weight="700" fill="#ffffff">Juan José Valbuena Camacho</text>
+    <text x="62" y="130" font-size="22" fill="#5eead4" letter-spacing="1">DATA ENGINEER · PYTHON · SQL · AIRFLOW · AWS</text>
+  </g>
+</svg>
