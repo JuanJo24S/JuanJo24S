@@ -85,12 +85,20 @@ Automated electronic invoicing inside an Angular application, certified by <b>HA
 <a href="images/factus/certificado-factus.png">Certificate →</a>
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+<h3>🧩 Microservices SaaS platform · <i>private, in progress</i></h3>
+My own product, built as lead developer: independent microservices in <b>NestJS</b> and <b>Python/FastAPI</b> with hexagonal architecture, event-driven messaging over <b>RabbitMQ</b> (CloudEvents, outbox/inbox, DLQ, retries and circuit breakers), an <b>Angular 22</b> PWA, and deployment on <b>Google Cloud</b> with <b>Terraform</b> and full observability.<br>
+<sub><i>Producto propio en desarrollo · el código es privado.</i></sub><br><br>
+<code>NestJS</code> <code>TypeScript</code> <code>FastAPI</code> <code>RabbitMQ</code> <code>PostgreSQL</code> <code>Prisma</code> <code>Redis</code> <code>Angular 22</code> <code>GCP</code> <code>Terraform</code> <code>OpenTelemetry</code> <code>Grafana</code>
+</td>
+</tr>
 </table>
 
 ## 🧰 Tech stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=py,java,ts,postgres,aws,docker,spring,angular,githubactions,linux&perline=10" />
+<img src="https://skillicons.dev/icons?i=py,java,ts,nestjs,postgres,rabbitmq,redis,aws,gcp,terraform,docker,spring,angular,githubactions,linux&perline=15" />
 </p>
 
 <details>
@@ -102,9 +110,10 @@ Automated electronic invoicing inside an Angular application, certified by <b>HA
 | **Languages** | Java · Python · SQL · TypeScript · JavaScript · C · C++ · C# · PHP · Bash · HTML · CSS |
 | **Data** | Apache Airflow (DAGs, orchestration, retries, traceability) · PostgreSQL · PostGIS · MySQL · Amazon Athena · DynamoDB · pandas · geopandas · Flyway · ArcGIS · Selenium · docxtpl/Jinja2 · openpyxl |
 | **Cloud (AWS)** | Glue · S3 · Athena · Lambda · ECS · EC2 · DynamoDB · IAM · Secrets Manager · CloudFormation · SAM · AWS CLI |
-| **Backend** | Spring Boot 3.x · Laravel · REST APIs · JWT · layered architecture with DTOs · JUnit |
-| **Frontend** | Angular 17–19 · Ionic · Tailwind · Bootstrap |
-| **DevOps & tools** | Docker · GitHub Actions (CI/CD) · Git · GitHub · Bitbucket · Linux · Claude Code |
+| **Cloud (GCP)** | Compute Engine · Cloud Build · Artifact Registry · IAP |
+| **Backend** | NestJS · FastAPI · Spring Boot 3.x · Laravel · microservices · hexagonal architecture · RabbitMQ (CloudEvents, outbox/inbox, DLQ) · Prisma · SQLAlchemy + Alembic · Redis · REST APIs · OpenAPI / AsyncAPI · OAuth 2.0 + JWT (RS256, JWKS) · JUnit · Jest · pytest |
+| **Frontend** | Angular 17–22 (signals, zoneless) · PWA · Socket.IO · Web Push · Ionic · Tailwind · Bootstrap |
+| **DevOps & tools** | Docker · Docker Compose · Dev Containers · Terraform · Traefik · GitHub Actions (CI/CD) · Cloud Build · OpenTelemetry · Prometheus · Loki · Grafana · pnpm + Turborepo · uv · gitleaks · Git · GitHub · Bitbucket · Linux · Claude Code |
 | **Practices** | SOLID · Clean Code · RBAC · automated testing with mocking · performance optimisation (SQL, HTTP/REST, build and run times) · technical documentation |
 
 </details>
@@ -119,7 +128,7 @@ I'm Juan, a data engineer and fullstack developer. I like working where data and
 
 In my last role I designed and maintained a Python ETL pipeline orchestrated with Apache Airflow for geospatial data, and wrote more than 80% of the project's code in a five-developer team. My best-known fix: a Selenium script located each PDF report by walking **randomly ordered pages** (a record could be on page 1 or page 400), so 5 files took about **2 hours**. I rewrote it against **direct REST endpoints** as its own Airflow DAG: the same batch took **3–4 minutes**, and it scaled to **1,000+ files** in production.
 
-Before that I built complete applications end to end: an inventory and point-of-sale system, electronic invoicing and an educational platform for children. Java is still my favourite language; for data work, my day to day is Python and SQL.
+Before that I built complete applications end to end: an inventory and point-of-sale system, electronic invoicing and an educational platform for children. Java is still my favourite language; for data work, my day to day is Python and SQL. Right now I'm building my own SaaS product on microservices (NestJS, Python, RabbitMQ, Google Cloud).
 
 I'm in the **8th semester of a BSc in Software Engineering** at FET (Colombia), with Professional Technician and Technologist degrees already awarded. Outside of code I've practised karate for 8 years 🥋: the same discipline of repeating something until it works well is how I learn new technology.
 
@@ -135,7 +144,7 @@ Soy Juan, Data Engineer y desarrollador Fullstack. Me gusta trabajar donde los d
 
 En mi último rol diseñé y mantuve un pipeline ETL en Python orquestado con Apache Airflow para datos geoespaciales, y escribí más del 80% del código del proyecto en un equipo de cinco desarrolladores. Mi arreglo más conocido: un script de Selenium ubicaba cada informe PDF recorriendo **páginas en orden aleatorio** (un registro podía estar en la página 1 o en la 400), así que 5 archivos tardaban cerca de **2 horas**. Lo reescribí con **endpoints REST directos** como un DAG propio en Airflow: el mismo lote pasó a **3–4 minutos** y escaló a **más de 1.000 archivos** en producción.
 
-Antes construí aplicaciones completas de punta a punta: un sistema de inventario y punto de venta, facturación electrónica y una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido; en datos, mi día a día es Python y SQL.
+Antes construí aplicaciones completas de punta a punta: un sistema de inventario y punto de venta, facturación electrónica y una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido; en datos, mi día a día es Python y SQL. Hoy estoy construyendo un producto SaaS propio sobre microservicios (NestJS, Python, RabbitMQ, Google Cloud).
 
 Voy en el **8vo semestre de Ingeniería de Software** en la FET, con los títulos de Técnico Profesional y Tecnólogo ya obtenidos. Fuera del código practico karate desde hace 8 años 🥋: la misma disciplina de repetir hasta que algo funcione bien la aplico al aprender tecnología nueva.
 
