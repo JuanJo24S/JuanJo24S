@@ -64,7 +64,7 @@ Skills and a <b>git-guard</b> hook so AI agents ship clean Pull Requests: it blo
 Inventory and point-of-sale system: stock alerts, PDF receipts and role-based users. Stateless REST API, layered architecture, <b>70 automated tests</b>.<br>
 <sub><i>Inventario y punto de venta · proyecto de grado, reescrito en Spring Boot.</i></sub><br><br>
 <code>Spring Boot 3.3</code> <code>Java 17</code> <code>Angular 17</code> <code>PostgreSQL</code> <code>Flyway</code> <code>JWT</code> <code>Docker</code><br>
-<a href="https://dr-stock-gules.vercel.app/auth">Live demo →</a> · <a href="dr-stock.md">Details (ES) →</a>
+<a href="https://dr-stock-gules.vercel.app/auth">Live demo →</a> · <a href="https://github.com/JuanJo24S/dr-stock">Repo →</a> · <a href="dr-stock.md">Details (ES) →</a>
 </td>
 </tr>
 <tr>
