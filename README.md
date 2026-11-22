@@ -145,7 +145,7 @@ In my last role I designed and maintained a Python ETL pipeline orchestrated wit
 
 Before that I built complete applications end to end: an inventory and point-of-sale system, electronic invoicing and an educational platform for children. Java is still my favourite language; for data work, my day to day is Python and SQL. Today I work independently: I lead the development of a dashboard with an AI agent for a private company (in development), I built an online store with online payments in Spring Boot, and I'm building my own SaaS product on microservices (NestJS, Python, RabbitMQ, Google Cloud).
 
-I'm in the **8th semester of a BSc in Software Engineering** at FET (Colombia), with Professional Technician and Technologist degrees already awarded. Outside of code I've practised karate for 8 years 🥋: the same discipline of repeating something until it works well is how I learn new technology.
+I've **completed 8 semesters of a BSc in Software Engineering** at FET (Colombia), with Professional Technician and Technologist degrees already awarded. Outside of code I've practised karate for 8 years 🥋: the same discipline of repeating something until it works well is how I learn new technology.
 
 **Looking for:** remote roles in data engineering or backend. Native Spanish, conversational English.
 
@@ -161,7 +161,7 @@ En mi último rol diseñé y mantuve un pipeline ETL en Python orquestado con Ap
 
 Antes construí aplicaciones completas de punta a punta: un sistema de inventario y punto de venta, facturación electrónica y una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido; en datos, mi día a día es Python y SQL. Hoy trabajo como independiente: lidero el desarrollo de un dashboard con un agente de IA para una empresa privada (en desarrollo), construí una tienda online con pagos en línea en Spring Boot y estoy construyendo un producto SaaS propio sobre microservicios (NestJS, Python, RabbitMQ, Google Cloud).
 
-Voy en el **8vo semestre de Ingeniería de Software** en la FET, con los títulos de Técnico Profesional y Tecnólogo ya obtenidos. Fuera del código practico karate desde hace 8 años 🥋: la misma disciplina de repetir hasta que algo funcione bien la aplico al aprender tecnología nueva.
+Tengo **aprobado el 8.º semestre de Ingeniería de Software** en la FET, con los títulos de Técnico Profesional y Tecnólogo ya obtenidos. Fuera del código practico karate desde hace 8 años 🥋: la misma disciplina de repetir hasta que algo funcione bien la aplico al aprender tecnología nueva.
 
 **Busco:** oportunidades remotas en ingeniería de datos o backend. Español nativo, inglés conversacional.
 
@@ -203,7 +203,7 @@ AI agent - private client :active, 2026-11-09, 2027-01-01
 
 ## 🎓 Education · Educación
 
-**BSc Software Engineering · Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Colombia — *8th semester · 8vo semestre*  
+**BSc Software Engineering · Ingeniería de Software** — Fundación Escuela Tecnológica de Neiva (FET), Colombia — *8th semester completed · 8.º semestre aprobado*  
 Technologist Degree in Information Systems & Networks Development (2026) · Professional Technician in IT Systems & Network Support (2025)
 
 <div align="center">
