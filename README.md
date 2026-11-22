@@ -51,12 +51,10 @@ flowchart LR
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/JuanJo24S/claude-develop-skills"><img src="https://opengraph.githubassets.com/1/JuanJo24S/claude-develop-skills" width="100%"/></a>
-<h3>🤖 claude-develop-skills</h3>
-Skills and a <b>git-guard</b> hook so AI agents ship clean Pull Requests: it blocks pushes to <code>main</code>, force pushes, <code>.env</code> files and secrets before the agent runs them.<br>
-<sub><i>Skills y un hook para que los agentes de IA trabajen con PR ordenados y seguros.</i></sub><br><br>
-<code>Claude Code</code> <code>OpenCode</code> <code>Bash</code> <code>Git</code><br>
-<a href="https://github.com/JuanJo24S/claude-develop-skills">Repo →</a>
+<h3>🌸 Hanmi · K-Beauty online store · <i>private</i></h3>
+Online store for a cosmetics shop: catalog, smart search with typo suggestions, a skin test that recommends routines, and checkout with <b>Wompi</b> payments verified by signed webhook and reconciliation. Admin panel with <b>TOTP 2FA</b>, sales dashboard, stock alerts and promotions. Hexagonal modular monolith with <b>~800 tests</b> on Testcontainers.<br>
+<sub><i>Tienda online freelance · el código es privado.</i></sub><br><br>
+<code>Spring Boot 4</code> <code>Java 17</code> <code>Thymeleaf</code> <code>htmx</code> <code>PostgreSQL</code> <code>Flyway</code> <code>Docker</code>
 </td>
 <td width="50%" valign="top">
 <a href="dr-stock.md"><img src="images/dr-stock/inventory.png" width="100%"/></a>
