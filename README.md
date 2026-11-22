@@ -26,6 +26,22 @@
 </tr>
 </table>
 
+## 💼 Experience · Experiencia
+
+**Backend & Fullstack Developer · Independent** — *Sep 2026 – present · remote*<br>
+<sub><i>Desarrollador Backend y Fullstack independiente: proyectos freelance y propios.</i></sub>
+
+- **🤖 AI agent and dashboard** · *freelance, tech lead · in development* — a dashboard with an AI agent for a private company that wants to automate tasks in line with ISO standards. Python microservices, PostgreSQL and Docker.<br>
+  <sub><i>Dashboard con un agente de IA para una empresa privada que automatiza tareas siguiendo normas ISO · en desarrollo.</i></sub>
+- **🌸 Hanmi, K-Beauty online store** · *freelance* — Spring Boot 4 store with Wompi payments, smart search and a 2FA admin panel, about **800 tests** (see below).<br>
+  <sub><i>Tienda online de cosmética con pagos en línea.</i></sub>
+- **🧩 Own SaaS platform** · *lead developer* — 8 microservices in NestJS and Python/FastAPI on Google Cloud with Terraform and **4,800+ tests** (see below).<br>
+  <sub><i>Producto propio sobre microservicios.</i></sub>
+
+**Data Engineer** — *Nov 2025 – Aug 2026 · Neiva, Colombia (hybrid)*<br>
+Python ETL pipeline orchestrated with Apache Airflow on AWS for a geospatial data platform: 80%+ of the codebase in a five-developer team, ingestion cut from 2 hours to 3–4 minutes (details below).<br>
+<sub><i>Pipeline ETL en Python con Airflow sobre AWS para una plataforma de datos geoespaciales.</i></sub>
+
 ## 🛰️ A production data pipeline I built · Un pipeline en producción que construí
 
 **Data Engineer** · geospatial data platform for a client · plataforma de datos geoespaciales para un cliente
@@ -51,6 +67,7 @@ flowchart LR
 <table>
 <tr>
 <td width="50%" valign="top">
+<img src="images/hanmi/home.png" width="100%"/>
 <h3>🌸 Hanmi · K-Beauty online store · <i>private</i></h3>
 Online store for a cosmetics shop: catalog, smart search with typo suggestions, a skin test that recommends routines, and checkout with <b>Wompi</b> payments verified by signed webhook and reconciliation. Admin panel with <b>TOTP 2FA</b>, sales dashboard, stock alerts and promotions. Hexagonal modular monolith with <b>~800 tests</b> on Testcontainers.<br>
 <sub><i>Tienda online freelance · el código es privado.</i></sub><br><br>
@@ -126,7 +143,7 @@ I'm Juan, a data engineer and fullstack developer. I like working where data and
 
 In my last role I designed and maintained a Python ETL pipeline orchestrated with Apache Airflow for geospatial data, and wrote more than 80% of the project's code in a five-developer team. My best-known fix: a Selenium script located each PDF report by walking **randomly ordered pages** (a record could be on page 1 or page 400), so 5 files took about **2 hours**. I rewrote it against **direct REST endpoints** as its own Airflow DAG: the same batch took **3–4 minutes**, and it scaled to **1,000+ files** in production.
 
-Before that I built complete applications end to end: an inventory and point-of-sale system, electronic invoicing and an educational platform for children. Java is still my favourite language; for data work, my day to day is Python and SQL. Right now I'm building my own SaaS product on microservices (NestJS, Python, RabbitMQ, Google Cloud).
+Before that I built complete applications end to end: an inventory and point-of-sale system, electronic invoicing and an educational platform for children. Java is still my favourite language; for data work, my day to day is Python and SQL. Today I work independently: I lead the development of a dashboard with an AI agent for a private company (in development), I built an online store with online payments in Spring Boot, and I'm building my own SaaS product on microservices (NestJS, Python, RabbitMQ, Google Cloud).
 
 I'm in the **8th semester of a BSc in Software Engineering** at FET (Colombia), with Professional Technician and Technologist degrees already awarded. Outside of code I've practised karate for 8 years 🥋: the same discipline of repeating something until it works well is how I learn new technology.
 
@@ -142,7 +159,7 @@ Soy Juan, Data Engineer y desarrollador Fullstack. Me gusta trabajar donde los d
 
 En mi último rol diseñé y mantuve un pipeline ETL en Python orquestado con Apache Airflow para datos geoespaciales, y escribí más del 80% del código del proyecto en un equipo de cinco desarrolladores. Mi arreglo más conocido: un script de Selenium ubicaba cada informe PDF recorriendo **páginas en orden aleatorio** (un registro podía estar en la página 1 o en la 400), así que 5 archivos tardaban cerca de **2 horas**. Lo reescribí con **endpoints REST directos** como un DAG propio en Airflow: el mismo lote pasó a **3–4 minutos** y escaló a **más de 1.000 archivos** en producción.
 
-Antes construí aplicaciones completas de punta a punta: un sistema de inventario y punto de venta, facturación electrónica y una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido; en datos, mi día a día es Python y SQL. Hoy estoy construyendo un producto SaaS propio sobre microservicios (NestJS, Python, RabbitMQ, Google Cloud).
+Antes construí aplicaciones completas de punta a punta: un sistema de inventario y punto de venta, facturación electrónica y una plataforma educativa para niños. Java sigue siendo mi lenguaje preferido; en datos, mi día a día es Python y SQL. Hoy trabajo como independiente: lidero el desarrollo de un dashboard con un agente de IA para una empresa privada (en desarrollo), construí una tienda online con pagos en línea en Spring Boot y estoy construyendo un producto SaaS propio sobre microservicios (NestJS, Python, RabbitMQ, Google Cloud).
 
 Voy en el **8vo semestre de Ingeniería de Software** en la FET, con los títulos de Técnico Profesional y Tecnólogo ya obtenidos. Fuera del código practico karate desde hace 8 años 🥋: la misma disciplina de repetir hasta que algo funcione bien la aplico al aprender tecnología nueva.
 
@@ -170,12 +187,18 @@ SQL course - Guayerd :done, 2023-04-01, 2023-06-30
 Professional Technician (FET) :done, 2023-02-01, 2024-11-30
 Technologist Degree (FET) :done, 2025-02-01, 2025-11-30
 BSc Software Engineering (FET) :active, 2026-02-01, 2029-06-01
+section Work
+Data Engineer :done, 2025-11-01, 2026-08-31
+Independent developer :active, 2026-09-01, 2026-12-31
 section Projects
 Dr. Stock :done, 2024-03-01, 2024-11-22
 Dr. Stock - Spring Boot :done, 2026-08-01, 2026-08-31
 HarSimuVerse :done, 2024-03-01, 2024-11-30
 HarSimuVerse - revisited :done, 2026-08-01, 2026-08-31
 Factus API :done, 2025-06-01, 2025-06-30
+SaaS platform :active, 2026-09-24, 2026-12-31
+Hanmi :active, 2026-10-23, 2026-12-31
+AI agent - private client :active, 2026-11-09, 2027-01-01
 ```
 
 ## 🎓 Education · Educación
